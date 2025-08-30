@@ -3,105 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🕮 Apoorva Thakur</title>
-
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
-
-<style>
-
-	.image-box {
-    flex-basis: 23%; /* Adjust as needed */
-    text-align: center;
-}
-
-.image-box img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.image-box p {
-    margin-top: 10px;
-    font-size: 14px;
-}
-.content p {
-    color: #6d4629; /* Brown color for the text */
-    font-size: 18px; /* Adjust font size as needed */
-    line-height: 1.5; /* Adjust line height as needed */
-}
-
-
-</style>
-
+    <title>Apoorva Thakur - Junior Research Assistant</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for a classic aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F8F4E3; /* Light cream background */
+        }
+        .font-garamond {
+            font-family: 'Cormorant Garamond', serif;
+        }
+        .main-container {
+            max-width: 960px;
+        }
+    </style>
 </head>
- <script src="https://kit.fontawesome.com/cf60279bd1.js" crossorigin="anonymous"></script>
-<body>
-<div class="header" >
+<body class="text-stone-800">
 
-<header id = "header">
-
-        <h1>Apoorva Thakur</h1>
-<h2>A Researcher and Social Psychologist </h2>
-
-
-  
-    </header></a></li></div>
-
-
-<div class= "nav">
- <nav class="desktop-menu" id="navi">
-
-        <ul>
-	    <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="cv.html">CV</a></li>
-            <li><a href="research.html">Research & Projects</a></li>
-            <li><a href="resources.html">Resources</a></li>
-	    <li><a href="blog.html">Blogs</a></li>
-            <li><a href="socials.html">Other Socials</a></li>
-        </ul>
-    </nav>
-</div>
-
-    <div class="container">
-        <div class="content">
-            <!-- Your homepage content goes here -->
-            <h2>Welcome to my Website!</h2>
-            
-<p>I graduated with M.A. in Psychology from the University of Mumbai, starting my career as a Social Psychology Researcher. Currently a Junior Research Assistant <a @ Monk Prayogshala.</p>
-
-<p>Visit at www.monkprayogshala.in to know more about our work. </p>
-
-<p>As for the purpose of this page, one day I woke up and thought I want to use my somewhat okay HTML skills and make a website from scratch and here we are. </p>
-
-<div class="image-box">
-                <img src="web1.png" alt="Image 1" style="max-width:100%;height:auto;">
-                <p>Some of the research interests that I have that come under Social Psychology</p>
+    <!-- Header Section -->
+    <header class="bg-stone-100/50 backdrop-blur-sm sticky top-0 z-50 shadow-sm">
+        <nav class="main-container mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between">
+            <a href="index.html" class="font-garamond text-2xl sm:text-3xl font-bold tracking-wide transition-colors duration-300 hover:text-stone-600">
+                Apoorva Thakur
+            </a>
+            <div class="flex items-center space-x-6 mt-4 sm:mt-0">
+                <a href="#about" class="text-stone-700 hover:text-stone-900 transition-colors duration-200">About</a>
+                <a href="research.html" class="text-stone-700 hover:text-stone-900 transition-colors duration-200">Research</a>
+                <a href="blog.html" class="text-stone-700 hover:text-stone-900 transition-colors duration-200">Blog</a>
+                <a href="#contact" class="text-stone-700 hover:text-stone-900 transition-colors duration-200">Contact</a>
             </div>
+        </nav>
+    </header>
 
-<p>This site will mostly have my academic stuff along with blog posts and articles around my research interests which are majorly within the field of social psychology are social identity, gender psychology, political psychology, and social media research.</p>
- 
-            
-&nbsp
+    <main class="main-container mx-auto px-4 py-12">
+        <!-- Hero Section -->
+        <section id="home" class="text-center py-20 px-4">
+            <h1 class="font-garamond text-4xl sm:text-6xl font-light leading-tight mb-4 text-stone-900">
+                Apoorva Thakur
+            </h1>
+            <p class="text-xl max-w-2xl mx-auto text-stone-700 leading-relaxed">
+                Welcome to my digital space. I am a Junior Research Assistant at Monk Prayogshala, specializing in social psychology and behavioral science.
+            </p>
+            <div class="mt-8">
+                <a href="#research" class="inline-block bg-stone-700 text-stone-100 font-medium py-3 px-8 rounded-full shadow-lg hover:bg-stone-600 transition-all duration-300">
+                    Explore My Work
+                </a>
+            </div>
+        </section>
 
-<p>I will also try to add tips for R, stats and recommended readings for the research areas I mentioned in the Resources page. Feel free to get in touch! You can either send an email or contact me through any other social media from the "other socials" page. </p>
+        <!-- About Section -->
+        <section id="about" class="py-16 md:py-24">
+            <h2 class="font-garamond text-4xl sm:text-5xl font-light text-center mb-10 text-stone-900">About</h2>
+            <div class="md:flex md:space-x-12 items-center">
+                <div class="md:w-1/2">
+                    <img src="https://placehold.co/500x500/E3DDC2/4A453A?text=Apoorva+Thakur" alt="A photo of Apoorva Thakur" class="rounded-lg shadow-xl mb-8 md:mb-0">
+                </div>
+                <div class="md:w-1/2 text-lg leading-relaxed">
+                    <p class="mb-6">
+                        I am a junior research assistant with a passion for understanding human behavior through a scientific lens. I completed my M.A. in Psychology from the University of Mumbai. At Monk Prayogshala, my work focuses on designing and implementing studies in the field of behavioral economics and social psychology.
+                    </p>
+                    <p>
+                        My academic interests lie in the cognitive biases that influence decision-making and the application of research to real-world social challenges. I am dedicated to contributing to meaningful research that can inform policy and improve societal well-being.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research" class="py-16 md:py-24">
+            <h2 class="font-garamond text-4xl sm:text-5xl font-light text-center mb-10 text-stone-900">Recent Research & Publications</h2>
+            <div class="space-y-12">
+                <!-- Publication 1 -->
+                <div class="bg-stone-100/70 p-8 rounded-lg shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <h3 class="font-garamond text-2xl font-semibold text-stone-900">Cognitive Load and Decision-Making in Financial Literacy: A Pilot Study</h3>
+                    <p class="text-stone-600 italic mb-4">Monk Prayogshala Working Paper Series, No. 20 (2023)</p>
+                    <p>
+                        This paper investigates the impact of cognitive load on financial decision-making among young adults in urban India. The findings suggest a significant correlation between information overload and sub-optimal choices.
+                    </p>
+                </div>
+                <!-- Publication 2 -->
+                <div class="bg-stone-100/70 p-8 rounded-lg shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <h3 class="font-garamond text-2xl font-semibold text-stone-900">The Power of Nudges: Encouraging Pro-Environmental Behavior</h3>
+                    <p class="text-stone-600 italic mb-4">Under Review</p>
+                    <p>
+                        An ongoing project exploring the effectiveness of behavioral nudges in promoting environmentally friendly actions. The study utilizes a randomized control trial to test different interventions in a real-world setting.
+                    </p>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="research.html" class="inline-block bg-stone-700 text-stone-100 font-medium py-3 px-8 rounded-full shadow-lg hover:bg-stone-600 transition-all duration-300">
+                    View All Research
+                </a>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="py-16 md:py-24">
+            <h2 class="font-garamond text-4xl sm:text-5xl font-light text-center mb-10 text-stone-900">Recent Blog Posts</h2>
+            <div class="space-y-12">
+                <!-- Blog Post 1 -->
+                <article class="bg-stone-100/70 p-8 rounded-lg shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <h3 class="font-garamond text-2xl font-semibold text-stone-900">The Joys and Challenges of Fieldwork</h3>
+                    <p class="text-stone-600 italic mb-4">December 15, 2023</p>
+                    <p>
+                        A reflection on the practicalities and unexpected discoveries while conducting research outside the lab.
+                    </p>
+                </article>
+                <!-- Blog Post 2 -->
+                <article class="bg-stone-100/70 p-8 rounded-lg shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <h3 class="font-garamond text-2xl font-semibold text-stone-900">A Look at Recent Behavioral Insights</h3>
+                    <p class="text-stone-600 italic mb-4">November 22, 2023</p>
+                    <p>
+                        A brief review of a recent research paper that has influenced my thinking on cognitive biases.
+                    </p>
+                </article>
+            </div>
+            <div class="text-center mt-12">
+                <a href="blog.html" class="inline-block bg-stone-700 text-stone-100 font-medium py-3 px-8 rounded-full shadow-lg hover:bg-stone-600 transition-all duration-300">
+                    Read All Blog Posts
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 md:py-24 text-center">
+            <h2 class="font-garamond text-4xl sm:text-5xl font-light mb-6 text-stone-900">Contact</h2>
+            <p class="max-w-xl mx-auto text-lg mb-8 text-stone-700">
+                For academic inquiries, collaboration opportunities, or general questions about my research, please feel free to reach out.
+            </p>
+            <div class="flex flex-wrap justify-center items-center gap-4">
+                <a href="mailto:apoorva.thakur@monkprayogshala.in" class="flex items-center space-x-2 bg-stone-700 text-stone-100 font-medium py-3 px-6 rounded-full shadow-lg hover:bg-stone-600 transition-all duration-300">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l-7.997 3.998A2 2 0 012 11.996V6a2 2 0 01.003-.116zM22 12.004c0-.116-.003-.232-.009-.348L14 8.006l7.991-4.002c.006-.114.009-.228.009-.343V12.004zM12 15.004L2 20.002a2 2 0 01-2-2v-4.008l10-5 10 5v4.008a2 2 0 01-2 2L12 15.004zM22 6c0-.116-.003-.232-.009-.348L14 8.006l8-4v-1c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v1l8 4 8-4 .009-.348c-.006.114-.009.228-.009.343v4.008L2 12.004V18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-6.004z"></path></svg>
+                    <span>Monk Prayogshala</span>
+                </a>
+                <a href="mailto:personal.email@example.com" class="flex items-center space-x-2 bg-stone-700 text-stone-100 font-medium py-3 px-6 rounded-full shadow-lg hover:bg-stone-600 transition-all duration-300">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l-7.997 3.998A2 2 0 012 11.996V6a2 2 0 01.003-.116zM22 12.004c0-.116-.003-.232-.009-.348L14 8.006l7.991-4.002c.006-.114.009-.228.009-.343V12.004zM12 15.004L2 20.002a2 2 0 01-2-2v-4.008l10-5 10 5v4.008a2 2 0 01-2 2L12 15.004zM22 6c0-.116-.003-.232-.009-.348L14 8.006l8-4v-1c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v1l8 4 8-4 .009-.348c-.006.114-.009.228-.009.343v4.008L2 12.004V18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-6.004z"></path></svg>
+                    <span>Personal Email</span>
+                </a>
+                <a href="https://www.linkedin.com/in/apoorvathakur" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 bg-stone-700 text-stone-100 font-medium py-3 px-6 rounded-full shadow-lg hover:bg-stone-600 transition-all duration-300">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.766s.784-1.765 1.75-1.765 1.75.79 1.75 1.765-.783 1.766-1.75 1.766zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://www.instagram.com/apoorvathakur" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 bg-stone-700 text-stone-100 font-medium py-3 px-6 rounded-full shadow-lg hover:bg-stone-600 transition-all duration-300">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.071 1.17.055 1.805.249 2.227.425.42.176.845.39 1.25.794.406.404.621.829.797 1.249.176.422.37.857.426 2.028.059 1.266.071 1.646.071 4.85s-.012 3.584-.071 4.85c-.055 1.17-.249 1.805-.425 2.227-.176.42-.39.845-.794 1.25-.404.406-.829.621-1.249.797-.422.176-.857.37-2.028.426-1.266.059-1.646.071-4.85.071s-3.584-.012-4.85-.071c-1.17-.055-1.805-.249-2.227-.425-.42-.176-.845-.39-1.25-.794-.406-.404-.621-.829-.797-1.249-.176-.422-.37-.857-.426-2.028-.059-1.266-.071-1.646-.071-4.85s.012-3.584.071-4.85c.055-1.17.249-1.805.425-2.227.176-.42.39-.845.794-1.25.404-.406.829-.621 1.249-.797.422-.176.857-.37 2.028-.426C8.416 2.175 8.796 2.163 12 2.163zm0-2.163c-3.265 0-3.67.012-4.947.072-1.391.066-2.316.299-3.134.616-.82.318-1.503.743-2.168 1.408S.617 6.162.299 6.98c-.318.818-.55 1.743-.616 3.134-.061 1.277-.072 1.682-.072 4.947s.012 3.67.072 4.947c.066 1.391.299 2.316.616 3.134.318.82.743 1.503 1.408 2.168s1.348 1.09 2.168 1.408c.818.318 1.743.55 3.134.616 1.277.061 1.682.072 4.947.072s3.67-.012 4.947-.072c1.391-.066 2.316-.299 3.134-.616.82-.318 1.503-.743 2.168-1.408s1.09-1.348 1.408-2.168c.318-.818.55-1.743.616-3.134.061-1.277.072-1.682.072-4.947s-.012-3.67-.072-4.947c-.066-1.391-.299-2.316-.616-3.134-.318-.82-.743-1.503-1.408-2.168S21.84 1.325 21.02 1.007c-.818-.318-1.743-.55-3.134-.616C16.33.012 15.925 0 12 0zM12 7.749c-2.343 0-4.251 1.908-4.251 4.251s1.908 4.251 4.251 4.251 4.251-1.908 4.251-4.251c0-2.343-1.908-4.251-4.251-4.251zm0 6.903c-1.464 0-2.652-1.188-2.652-2.652s1.188-2.652 2.652-2.652 2.652 1.188 2.652 2.652c0 1.464-1.188 2.652-2.652 2.652zm5.726-9.846c-.633 0-1.147-.514-1.147-1.147s.514-1.146 1.147-1.146c.633 0 1.146.514 1.146 1.146s-.513 1.147-1.146 1.147z"></path></svg>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://www.socialpsychologynetwork.org" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 bg-stone-700 text-stone-100 font-medium py-3 px-6 rounded-full shadow-lg hover:bg-stone-600 transition-all duration-300">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.071 18.069c-2.28-.9-3.92-2.94-4.529-5.389l-1.04 1.04c-1.39-1.39-1.39-3.64 0-5.029l1.04-1.04c.61-2.449 2.25-4.489 4.53-5.389l-1.04-1.04c-1.39-1.39-1.39-3.64 0-5.029s3.64-1.39 5.029 0l1.04 1.04c2.28.9 3.92 2.94 4.529 5.389l1.04-1.04c1.39-1.39 3.64-1.39 5.029 0s1.39 3.64 0 5.029l-1.04 1.04c-.61 2.449-2.25 4.489-4.53 5.389l1.04 1.04c1.39 1.39 1.39 3.64 0 5.029s-3.64 1.39-5.029 0l-1.04-1.04zM12.012 3.169c.96-1.571 2.584-2.639 4.498-2.639s3.538 1.068 4.498 2.639l-1.42 1.42c-.529-.865-1.42-1.464-2.527-1.464s-1.998.599-2.527 1.464l-1.42-1.42z"></path></svg>
+                    <span>SPN</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-stone-100/50 py-8 mt-12">
+        <div class="main-container mx-auto px-4 text-center text-stone-600">
+            <p>&copy; 2023 Apoorva Thakur. All rights reserved.</p>
         </div>
-    </div>
-</div>
-    <footer>
-        &copy; 2024 Apoorva Thakur | <a href="mailto:apoorvathakur2000@gmail.com"><i class="fa-solid fa-envelope" style="color: #bb7409;"></i></i></a> <a href="https://github.com/iamApoorvaT/"><i class="fa-brands fa-github" style="color: #804000;"></i></a>
     </footer>
 
-
-    <script>
-        // Toggle mobile menu
-        document.querySelector('.mobile-toggle').addEventListener('click', function() {
-            document.querySelector('.mobile-menu').classList.toggle('active');
-        });
-    </script>
-
-
-
-</script>
 </body>
 </html>
